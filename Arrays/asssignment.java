@@ -9,6 +9,7 @@ public class asssignment {
             leftMax[i]=Math.max(leftMax[i-1],height[i]);
         }
 
+
          int rightMax[]=new int[n];
         rightMax[n-1]=height[n-1];
         for(int i=n-2;i>=0;i--){
@@ -23,6 +24,8 @@ public class asssignment {
         }
         return MaxWater;
     }
+    
+    
     public static void main(String[] args) {
         int[] height = {1,8,6,2,5,4,8,3,7};
         System.out.println(maxWater(height));

@@ -48,7 +48,7 @@ static boolean isSafe (char board[][],int row,int col){
         }
     }
     public static void main(String[] args) {
-        int n=5;
+        int n=3  ;
         char board[][]=new char[n][n];
 
         for (int i = 0; i < board.length; i++) {

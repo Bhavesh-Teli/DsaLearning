@@ -221,6 +221,7 @@ public class prac {
         // obj.num1(4);
         // obj.star3(7);
         starButterfly(5);
+        System.out.println(708/10);
     }
 
 }

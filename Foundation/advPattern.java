@@ -1,3 +1,4 @@
+package Foundation;
 public class advPattern {
 
     public static void hollowSq(int n) {

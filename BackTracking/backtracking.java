@@ -38,6 +38,7 @@ public class backtracking {
             char curr=str.charAt(i);
 
           String  Newstr=str.substring(0, i)+str.substring(i+1);
+          System.out.println(Newstr);
             findPermutations(Newstr, ans+curr);
         }
     }

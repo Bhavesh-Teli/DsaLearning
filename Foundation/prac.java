@@ -1,3 +1,6 @@
+
+package Foundation;
+
 public class prac {
     public static void prime(int num) {
         int n = 13;
@@ -145,51 +148,53 @@ public class prac {
     public static void star7(int num) {
 
         for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <=num; j++) {
-                if (i==j || i + j == num + 1) {
+            for (int j = 1; j <= num; j++) {
+                if (i == j || i + j == num + 1) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
-               
+
             }
             System.out.println();
         }
 
     }
+
     public static void star8(int num) {
 
         for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <=num; j++) {
-                if (j==1 || j==num || i==1 || i==num) {
+            for (int j = 1; j <= num; j++) {
+                if (j == 1 || j == num || i == 1 || i == num) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
-               
+
             }
             System.out.println();
         }
 
     }
+
     public static void starButterfly(int num) {
-        for (int i = 1; i <=num; i++) {
-            for (int j = 1; j <=i; j++) {
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            for (int j = 1; j < 2*(num-i)+1; j++) {
+            for (int j = 1; j < 2 * (num - i) + 1; j++) {
                 System.out.print(" ");
             }
-            for (int k =1; k <=i; k++) {
+            for (int k = 1; k <= i; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-        for (int i = 1; i <=num; i++) {
+        for (int i = 1; i <= num; i++) {
             for (int j = num; j >= i; j--) {
                 System.out.print('*');
             }
-            for (int j = 1; j <=2*i-1; j++) {
+            for (int j = 1; j <= 2 * i - 1; j++) {
                 System.out.print(' ');
             }
             for (int j = num; j >= i; j--) {
@@ -197,31 +202,30 @@ public class prac {
             }
             System.out.println();
         }
-  
-        }
-        public static void num1(int num) {
 
-            for (int i = 1; i <= num; i++) {
-              for (int k = 1; k <=num-i; k++) {
+    }
+
+    public static void num1(int num) {
+
+        for (int i = 1; i <= num; i++) {
+            for (int k = 1; k <= num - i; k++) {
                 System.out.print(" ");
-              }
-                for (int j = 1; j <=i; j++) {
-                  System.out.print(j+" ");
-                }
-
-                System.out.println();
             }
-    
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+
+            System.out.println();
         }
 
+    }
 
-    
-    public static  void main(String args[]) {
+    public static void main(String args[]) {
         prac obj = new prac();
         // obj.num1(4);
         // obj.star3(7);
         starButterfly(5);
-        System.out.println(708/10);
+        System.out.println(708 / 10);
     }
 
 }

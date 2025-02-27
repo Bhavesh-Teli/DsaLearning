@@ -1,3 +1,4 @@
+package Foundation;
 public class functionn {
 
     public void factorial(int num) {

@@ -61,7 +61,7 @@ public class nKnights {
                 if (board[i][j]) {
                     System.out.print("K ");
                 } else {
-                    System.out.print("X ");
+                    System.out.print("0 ");
                 }
             }
             System.out.println();

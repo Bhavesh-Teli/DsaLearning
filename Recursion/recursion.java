@@ -117,6 +117,6 @@ public static void main(String[] args) {
     System.out.println(findIndex(arr,3,0));
     int arrr[]={5,5,6,5,4,5};
     System.out.println(lastoccurence(arrr, 8, 0));
-    System.out.println(calcPower(2, 4));
+    System.out.println(calcPower(5, 5));
 }
 }

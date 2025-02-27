@@ -1,3 +1,4 @@
+package Foundation;
 public class arrays {
 
     public static void linearSearch() {

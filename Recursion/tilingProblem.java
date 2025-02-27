@@ -11,6 +11,7 @@ public class tilingProblem {
         int total=vertical+horizontal;
         return total;
     }
+    
     public static void main(String[] args) {
         System.out.println(tiling(10));
     }

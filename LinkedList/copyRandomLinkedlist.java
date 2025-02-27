@@ -25,6 +25,7 @@ public class copyRandomLinkedlist {
                 cloned.next = current.next;
                 current.next = cloned;
                 current = cloned.next;
+               
             }
     
             // Step 2: Assign random pointers for the cloned nodes
@@ -68,7 +69,7 @@ public class copyRandomLinkedlist {
     
         
         Node clonedHead = list.copyRandomList(head);
-    
+                          
         // Print the cloned list to verify
         Node current = clonedHead;
         while (current != null) {

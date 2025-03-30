@@ -20,7 +20,8 @@ System.out.println(s);
     }
     public static void main(String[] args) {
         String j ="wwwrrrooppss";
-        fn(j);
+        // fn(j);
+        System.out.println(1%2);
     }
 }
 
